@@ -31,18 +31,62 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_CONFIG.name}`,
   },
   description: SITE_CONFIG.shortBio,
+  keywords: [
+    "Full Stack Developer",
+    "Web Developer",
+    "MERN Stack",
+    "Next.js",
+    "React",
+    "Node.js",
+    "MongoDB",
+    "TypeScript",
+    "Web Design",
+    "Portfolio",
+  ],
+  authors: [{ name: SITE_CONFIG.name, url: SITE_CONFIG.url }],
+  creator: SITE_CONFIG.name,
+  publisher: SITE_CONFIG.name,
+  formatDetection: {
+    email: false,
+    telephone: false,
+    address: false,
+  },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5,
+    userScalable: true,
+  },
   alternates: { canonical: "/" },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
     title: `${SITE_CONFIG.name} — ${SITE_CONFIG.role}`,
     description: SITE_CONFIG.shortBio,
     url: SITE_CONFIG.url,
     siteName: SITE_CONFIG.name,
     type: "website",
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE_CONFIG.name} — ${SITE_CONFIG.role}`,
     description: SITE_CONFIG.shortBio,
+    creator: "@usmansethi",
+  },
+  verification: {
+    google: "gLmK3cT3uIcSNPqxn0m-d0AjQDs63_IWZPZZMtc4nrY",
   },
 };
 
@@ -53,6 +97,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       suppressHydrationWarning
       className={`${inter.variable} ${spaceGrotesk.variable} ${jetBrainsMono.variable}`}
     >
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+        <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="color-scheme" content="light dark" />
+      </head>
       <body className="antialiased">
         <JsonLd data={personSchema()} />
         <JsonLd data={websiteSchema()} />

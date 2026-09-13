@@ -1,0 +1,36 @@
+# Robots.txt for Usman Sethi Portfolio
+# This file helps search engines crawl and index the website efficiently
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+Disallow: /_next
+Disallow: /public
+Crawl-delay: 1
+
+# Google-specific rules
+User-agent: Googlebot
+Allow: /
+Disallow: /admin
+Disallow: /api
+
+# Bing-specific rules
+User-agent: Bingbot
+Allow: /
+Disallow: /admin
+Disallow: /api
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://usmansethi.ccsuop.com/sitemap.xml
+Sitemap: https://usmansethi.dev/sitemap.xml
