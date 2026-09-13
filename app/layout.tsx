@@ -86,7 +86,7 @@ export const metadata: Metadata = {
     creator: "@usmansethi",
   },
   verification: {
-    google: "gLmK3cT3uIcSNPqxn0m-d0AjQDs63_IWZPZZMtc4nrY",
+    google: "2e3NOcKTJAulZ8lFWh_9xPqmfN5Nu5HCwSd7vB5Q2sE",
   },
 };
 

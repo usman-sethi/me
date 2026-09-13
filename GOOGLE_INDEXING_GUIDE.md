@@ -18,7 +18,7 @@ Your site is currently not indexed by Google because:
 ### Step 2: Verify Google Site Verification (Already Done ✓)
 Your meta tag is in place:
 ```html
-<meta name="google-site-verification" content="gLmK3cT3uIcSNPqxn0m-d0AjQDs63_IWZPZZMtc4nrY" />
+<meta name="google-site-verification" content="2e3NOcKTJAulZ8lFWh_9xPqmfN5Nu5HCwSd7vB5Q2sE" />
 ```
 
 But you still need to:
