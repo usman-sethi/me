@@ -3,9 +3,8 @@ export const SITE_CONFIG = {
   role: "Full Stack Web Developer",
   shortBio:
     "Full Stack Web Developer building on the MERN stack, 3rd-semester student at the University of Peshawar.",
-  // Placeholder — swap for the real production domain once it's registered,
-  // then update NEXT_PUBLIC_SITE_URL in your host's environment variables to match.
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://usmansethi.dev",
+  // Production domain — make sure NEXT_PUBLIC_SITE_URL is set in .env.local
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://usmansethi.ccsuop.com",
   education: {
     institution: "University of Peshawar",
     status: "3rd-semester student",
