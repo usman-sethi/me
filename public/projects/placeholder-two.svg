@@ -1,0 +1,16 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract placeholder cover">
+  <rect width="1200" height="800" fill="#0A0B0E"/>
+  <g stroke="#232733" stroke-width="1">
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="800"/>
+    <line x1="600" y1="0" x2="600" y2="800"/>
+    <line x1="900" y1="0" x2="900" y2="800"/>
+  </g>
+  <rect x="540" y="340" width="120" height="120" rx="10" fill="#5B85FF"/>
+  <circle cx="300" cy="200" r="8" fill="#34D399"/>
+  <circle cx="900" cy="600" r="8" fill="#E8A33D"/>
+  <line x1="600" y1="400" x2="300" y2="200" stroke="#5B85FF" stroke-width="1.5"/>
+  <line x1="600" y1="400" x2="900" y2="600" stroke="#5B85FF" stroke-width="1.5"/>
+</svg>

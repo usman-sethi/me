@@ -1,0 +1,20 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract placeholder cover">
+  <rect width="1200" height="800" fill="#F6F8FA"/>
+  <g stroke="#E3E7EC" stroke-width="1">
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="800"/>
+    <line x1="600" y1="0" x2="600" y2="800"/>
+    <line x1="900" y1="0" x2="900" y2="800"/>
+  </g>
+  <circle cx="600" cy="400" r="64" fill="#2451F2"/>
+  <circle cx="300" cy="200" r="8" fill="#1B9E6B"/>
+  <circle cx="900" cy="200" r="8" fill="#B8790C"/>
+  <circle cx="300" cy="600" r="8" fill="#D0363D"/>
+  <circle cx="900" cy="600" r="8" fill="#1B9E6B"/>
+  <line x1="600" y1="400" x2="300" y2="200" stroke="#2451F2" stroke-width="1.5"/>
+  <line x1="600" y1="400" x2="900" y2="200" stroke="#2451F2" stroke-width="1.5"/>
+  <line x1="600" y1="400" x2="300" y2="600" stroke="#2451F2" stroke-width="1.5"/>
+  <line x1="600" y1="400" x2="900" y2="600" stroke="#2451F2" stroke-width="1.5"/>
+</svg>
